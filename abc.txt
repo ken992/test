@@ -1,2 +1,1 @@
-あああaaee
-sssss
+    config.time_zone = 'Tokyo'
