@@ -13,6 +13,6 @@ application <<-APPEND
   config.i18n.default_locale = :ja
 APPEND
 
-#inside('config/locales') do
-#  run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > ja.yml"
-#end
+inside('config/locales') do
+  run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > ja.yml"
+end
