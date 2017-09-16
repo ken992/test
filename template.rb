@@ -16,3 +16,4 @@ APPEND
 inside('config/locales') do
   run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > ja.yml"
 end
+#run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > #{dir}/config/locales/ja.yml"
