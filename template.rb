@@ -13,7 +13,11 @@ application <<-APPEND
   config.i18n.default_locale = :ja
 APPEND
 
+#最新の翻訳ファイルを自動DL
 inside('config/locales') do
   run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > ja.yml"
 end
 #run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > #{dir}/config/locales/ja.yml"
+
+#複数のビューで使われるパーシャルの専用ディレクトリ
+run "mkdir #{dir}/app/views/shared"
