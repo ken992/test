@@ -20,4 +20,4 @@ end
 #run "curl https://raw.githubusercontent.com/svenfuchs/rails-i18n/master/rails/locale/ja.yml > #{dir}/config/locales/ja.yml"
 
 #複数のビューで使われるパーシャルの専用ディレクトリ
-run "mkdir #{dir}/app/views/shared"
+run "mkdir -p #{dir}/app/views/shared"
