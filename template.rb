@@ -7,6 +7,12 @@ gem 'better_errors'
 gem 'binding_of_caller'
 #gem 'byebug'
 
+#IDE Rubymine
+gem 'ruby-debug-ide'
+gem 'debase'
+
+gem 'bcrypt'
+
 application <<-APPEND
   config.active_record.default_timezone = :local
   config.time_zone = 'Tokyo'
