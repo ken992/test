@@ -11,6 +11,9 @@ gem 'binding_of_caller'
 gem 'ruby-debug-ide'
 gem 'debase'
 
+# https://qiita.com/pugiemonn/items/11a2bc8403e5947a8f13
+gem 'therubyracer', platforms: :ruby
+
 gem 'bcrypt'
 
 application <<-APPEND
